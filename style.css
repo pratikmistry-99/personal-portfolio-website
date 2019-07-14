@@ -9,7 +9,7 @@ body
 #header
 {
 	height: 100vh;
-	background: lightblue url("tdot.jpg");
+	background: url("tdot.jpg");
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -64,4 +64,16 @@ body
 .navbar
 {
 	background-color: 	#000;
+}
+
+.progress
+{
+	borger-radius:16px !important;
+	margin-bottom: 10px;
+}
+
+.progress-bar
+{
+	border-radius: 16px;
+	background: #000 !important;
 }
