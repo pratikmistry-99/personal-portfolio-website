@@ -3,7 +3,6 @@ body
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-
 }
 
 #header
@@ -49,11 +48,16 @@ body
 
 }
 
+#about{
+	    background-color: lightblue;
 
+}
 .about{
 	padding-top: 	100px;
 	padding-bottom: 	50px;
+	background-color: lightblue;                 
 }
+
 .profile-img{
 	height: 400px;
 }
@@ -77,6 +81,33 @@ body
 {
 	border-radius: 16px;
 	background: #000 !important;
+}
+
+.about .btn
+{
+	padding: 10px 25px 10px 25px;
+	margin: 5px;
+	border-radius: 30px;
+	border: 2px solid #fff;
+	background: transparent;
+}
+
+.about .btn: focus
+{
+	box-shadow: none !important;
+
+}
+
+.about .btn:hover
+{
+	border: 2px solid #000 !important;
+	background: #000 !important;
+	transition: 0.5s;
+}
+
+.about .btn .fa
+{
+	margin-right: 10px;
 }
 
 /*-----------Resume Timeline----*/
@@ -121,6 +152,10 @@ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("b.jpg");
 	background: #fff;
 }
 
+.timeline li h4 p{
+	background: lightblue;
+}
+
 .timeline li h4
 {
 	background-color: #004d80;
@@ -150,7 +185,7 @@ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("b.jpg");
 .skills
 {
 	padding-top: 50px;
-	padding-bottom: 50px;
+	background-color: skyblue;
 }
 
 .skills h1
@@ -161,11 +196,11 @@ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("b.jpg");
 
 .skills-box
 {
-	background: grey;
+	background: lightblue;
 	padding: 10px;
 	margin-top: 20px;
-	border-top-right-radius: 20px;
-	border-bottom-left-radius: 20px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 }
 
 .skills-box .fas
@@ -194,8 +229,8 @@ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("b.jpg");
 	color: #fff;
 	border-top-right-radius: 0;
 	border-bottom-left-radius: 0;
-	border-top-right-radius: 20px;
-	border-bottom-left-radius: 20px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 	transition: 1s;
 }
 
@@ -209,7 +244,7 @@ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("b.jpg");
 .contact
 {
 	padding-top: 50px;
-	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("tdot.jpg");
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("tdot.jpg");
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -228,35 +263,19 @@ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("b.jpg");
 	font-size: 40px;
 }
 
-.contact .btn
+.contact .col-md-4 .fab
 {
-	padding: 10px 25px 10px 25px;
-	margin: 5px;
-	border-radius: 30px;
-	border: 2px solid #fff;
-	background: transparent;
+	padding: 10px;
+	font-size: 40px;
 }
-.contact .btn: focus
-{
-	box-shadow: none !important;
 
-}
-.contact .btn:hover
-{
-	border: 2px solid #000 !important;
-	background: #000 !important;
-	transition: 0.5s;
-}
-.contact .btn .fa
-{
-	margin-right: 10px;
-}
 .footer
 {
 	background: black;
 	height: 50px;
-	margin-top: 50px;
+	
 	color: #fff;
 	padding-top: 10px;
+	min-width:  50px;
 }
 
