@@ -115,10 +115,10 @@ body
 {
 	padding-top: 50px;
 	padding-bottom: 30px;
-background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("b.jpg");
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("b.jpg");
 	background-position: center;
 	background-size: cover;
-	color: #999;
+	color: #fff;
 }
 
 .resume h3
@@ -135,7 +135,7 @@ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("b.jpg");
 .timeline:before
 {
 	content: '';
-	background: #555;
+	background: orangered;
 	display: inline-block;
 	position: absolute;
 	left: 29px;
@@ -152,9 +152,6 @@ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("b.jpg");
 	background: #fff;
 }
 
-.timeline li h4 p{
-	background: lightblue;
-}
 
 .timeline li h4
 {
@@ -173,7 +170,7 @@ background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("b.jpg");
 	display: inline-block;
 	position: absolute;
 	border-radius: 50%;
-	border: 3px solid #000;
+	border: 3px solid orangered;
 	left: 20px;
 	width: 20px;
 	height: 20px;
