@@ -48,14 +48,11 @@ body
 
 }
 
-#about{
-	    background-color: lightblue;
 
-}
 .about{
 	padding-top: 	100px;
 	padding-bottom: 	50px;
-	background-color: lightblue;                 
+	background-color: #84ceeb;                 
 }
 
 .profile-img{
@@ -135,7 +132,7 @@ body
 .timeline:before
 {
 	content: '';
-	background: orangered;
+	background: #3500d3;
 	display: inline-block;
 	position: absolute;
 	left: 29px;
@@ -158,7 +155,7 @@ body
 	background-color: #004d80;
 	padding: 5px 0 5px 20px;
 	color: #fff;
-
+	
 	font-size: 15px;
 
 }
@@ -170,7 +167,7 @@ body
 	display: inline-block;
 	position: absolute;
 	border-radius: 50%;
-	border: 3px solid orangered;
+	border: 3px solid #3500d3;
 	left: 20px;
 	width: 20px;
 	height: 20px;
@@ -182,7 +179,7 @@ body
 .skills
 {
 	padding-top: 50px;
-	background-color: skyblue;
+	background-color: #90ccf4;
 }
 
 .skills h1
@@ -193,7 +190,7 @@ body
 
 .skills-box
 {
-	background: lightblue;
+	background: lightsteelblue;
 	padding: 10px;
 	margin-top: 20px;
 	border-top-right-radius: 10px;
