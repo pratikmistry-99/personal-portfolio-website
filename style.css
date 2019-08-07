@@ -52,7 +52,9 @@ body
 .about{
 	padding-top: 	100px;
 	padding-bottom: 	50px;
-	background-color: #84ceeb;                 
+	background-image: linear-gradient(to left, #1F2833, #0B0C10);
+	background-position: center;
+	background-size: cover;                
 }
 
 .profile-img{
@@ -132,7 +134,7 @@ body
 .timeline:before
 {
 	content: '';
-	background: #3500d3;
+	background: #3567d4;
 	display: inline-block;
 	position: absolute;
 	left: 29px;
@@ -167,7 +169,7 @@ body
 	display: inline-block;
 	position: absolute;
 	border-radius: 50%;
-	border: 3px solid #3500d3;
+	border: 3px solid #3567d4;
 	left: 20px;
 	width: 20px;
 	height: 20px;
@@ -179,7 +181,11 @@ body
 .skills
 {
 	padding-top: 50px;
-	background-color: #90ccf4;
+	padding-bottom: 50px;
+	background-image: linear-gradient(to left, #2b8ccc, #022740);
+	background-position: center;
+	background-size: cover;
+	color: #fff;
 }
 
 .skills h1
