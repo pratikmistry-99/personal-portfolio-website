@@ -142,7 +142,7 @@ body
 {
 	padding-top: 50px;
 	padding-bottom: 30px;
-	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("b.jpg");
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
 	background-position: center;
 	background-size: cover;
 	color: #fff;
@@ -162,7 +162,7 @@ body
 .timeline:before
 {
 	content: '';
-	background: #3567d4;
+	background: #004d80;
 	display: inline-block;
 	position: absolute;
 	left: 29px;
@@ -174,7 +174,7 @@ body
 .timeline li
 {
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	margin-left: 20px;
 	background: #fff;
 }
@@ -197,7 +197,7 @@ body
 	display: inline-block;
 	position: absolute;
 	border-radius: 50%;
-	border: 3px solid #3567d4;
+	border: 3px solid #004d80;
 	left: 20px;
 	width: 20px;
 	height: 20px;
