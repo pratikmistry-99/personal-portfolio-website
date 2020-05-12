@@ -17,6 +17,39 @@ body
 
 }
 
+.user-box .intro{
+	display:flex;
+}
+
+.user-box .intro
+{
+	position: relative;
+	margin-left: 5px;
+	font-family: 'Muli', sans-serif;
+	color: #fff;
+
+}
+
+
+.user-box .typing:after
+{
+	content: "";
+	position: relative;
+	width: 1px;
+	height: 20px;
+	border-right: 2px solid white;
+	animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
 .user-box
 {
 	top: 50%;
@@ -89,14 +122,7 @@ font-family: 'Muli', sans-serif;
 	padding:5px;
 }
 
-.user-box p
-{
-	color: #fff;
-	background-color: #123;
-	border-radius: 16px;
-font-family: 'Muli', sans-serif;
 
-}
 
 .user-box .icon-block .fab{
 	color: lightgrey;
@@ -150,7 +176,6 @@ font-family: 'Muli', sans-serif;
 }
 .navbar
 {
-	border-radius: 50px;
 	background-color: 	#000;
 }
 
