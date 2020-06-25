@@ -5,7 +5,7 @@ let currentText = '';
 let letter = '';
 
 (function type(){
-	setTimeout(1000);
+
 	if(count == titles.length){
 		count = 0;
 	}
@@ -18,5 +18,6 @@ let letter = '';
 		index = 0;
 	}
 	setTimeout(type, 200);
+	
 
 }());
