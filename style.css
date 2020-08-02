@@ -623,9 +623,9 @@ body
 }
 
 .profile-img{
-	border-radius: 50%;
-	height: 300px;
-	filter: grayscale(100%);
+	border-radius: 0%;
+	/*height: 300px;
+	filter: grayscale(100%);*/
 }
 .nav-bar{
 	top: 0;
@@ -634,9 +634,19 @@ body
 }
 .navbar
 {
-	background-color: 	#000;
+	background-color:  #fff;
 }
-
+.navbar-nav
+{
+	text-align: center;
+}
+.navbar-toggler
+{
+	outline: none !important;
+}
+.nav-link{
+	color: #ff6d36;
+}
 .progress
 {
 	border-radius:16px !important;
