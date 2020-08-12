@@ -20,7 +20,7 @@ body
   }
   
   #wrapper {
-	position: relative;
+	position: absolute;
 	margin-bottom: 10px;
 	height: 300px;
   }
@@ -34,25 +34,25 @@ body
 	position: absolute;
 	width: 70px;
 	height: 103px;
-	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	margin: auto;
+	z-index: 0;
   }
   #spiderman:before {
 	content: " ";
 	position: absolute;
 	width: 0;
-	height: 1000px;
+	height: 500px;
 	left: 50%;
 	bottom: 100%;
 	margin-bottom: -18px;
 	margin-left: -1px;
 	border: solid;
 	border-width: 1px;
-	border-color: white;
-	z-index: 10;
+	border-color: cornflowerblue;
+	z-index: -1;
   }
   #spiderman .head {
 	-webkit-border-radius: 15px 15px 10px 10px;
@@ -468,7 +468,7 @@ body
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: 'Bungee', cursive;
-
+	
 
 }
 
@@ -521,8 +521,7 @@ body
 	position: absolute;
 	color: #fff;
 	bottom: 30px;
-	left: 49%;
-   font-size:59px;
+   font-size:60px;
    color:#fff;
 }
 .arrow i{
@@ -771,9 +770,9 @@ body
 	padding-top: 50px;
 	padding-bottom: 50px;
 	/*background-image: linear-gradient(to left, #2b8ccc, #022740);*/
-background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #141E30;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background-position: center;
 	background-size: cover;
 	color: #fff;
