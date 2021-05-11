@@ -519,6 +519,11 @@ body
 
 .arrow{
 	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 	color: #fff;
 	bottom: 30px;
    font-size:60px;
@@ -617,7 +622,7 @@ body
 	background-position: center;
 	background-size: cover;   
 	color: #fff;   
-	font-family: 'Muli', sans-serif;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     
 }
 
@@ -642,7 +647,7 @@ body
 	outline: none !important;
 }
 .nav-link{
-	color: #ff6d36;
+	color: grey;
 }
 .progress
 {
@@ -688,13 +693,13 @@ body
 {
 	padding-top: 50px;
 	padding-bottom: 30px;
-	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("tdot.jpg");
+	background: cornflowerblue;/*linear-gradient(rgba(206, 21, 21, 0.7),rgba(0,0,0,0.7));*/
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
 
-	color: #fff;
-	font-family: 'Muli', sans-serif;
+	color: rgb(255, 255, 255);
+	font-family: 'Bungee', cursive;
 
 }
 
@@ -703,6 +708,17 @@ body
 	margin-bottom: 50px;
 }
 
+.resume h4
+{
+	width:100%;
+	text-align:center;
+}
+
+.resume h4 img
+{
+	display:inline-block;
+	margin: 0 auto;
+}
 .timeline
 {
 	list-style-type: none;
@@ -725,31 +741,45 @@ body
 {
 	margin-top: 20px;
 	margin-bottom: 30px;
-	margin-left: 20px;
-	background: #919bba;
-	border-radius: 17px;
+	margin-left: 30px;
+	margin-right: 30px;
+	background: #fff;
+	border-radius: 25px;
+	
 }
 
 .timeline li p
 {
-	background-color: lightsteelblue;
-	color: black; 
-	padding: 10px;
-	border-bottom-left-radius: 16px;
-	border-bottom-right-radius: 16px;
+	background-color: #3965A7;
+	height: 300px;
+	color: white; 
+	padding: 20px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.p2
+{
+	background-color: #3965A7;
+	color: white; 
+	padding:20px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .timeline li h4
 {
-	background-color: #004d80;
-	padding: 5px 0 5px 20px;
-	color: #fff;
-	border-top-left-radius: 16px;
-	border-top-right-radius: 16px;
+	background-color: #fff;
+	height: 100px;
+	padding-top: 30px;
+	color: #000	;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
 	font-size: 15px;
 
 }
-
+/*
 .timeline li:before
 {
 	content: '';
@@ -757,12 +787,12 @@ body
 	position: absolute;
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
-	border-top: 20px solid #004d80;
+	border-top: 20px solid cornflowerblue;
 	left: 8px;
 	
 	z-index: 1;
 }
-
+*/
 /*-----------Skills----*/
 
 .skills
@@ -776,7 +806,7 @@ body
 	background-position: center;
 	background-size: cover;
 	color: #fff;
-	font-family: 'Muli', sans-serif;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 
 	
 }
@@ -833,19 +863,20 @@ body
 .contact
 {
 	padding-top: 50px;
-	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("tdot.jpg");
+	background: cornflowerblue;
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
 	color: #fff;
-	font-family: 'Muli', sans-serif;
-
+	font-family: 'Bungee', cursive;
 }
 
 .contact .row
 {
 	padding: 30px 0;
 	font-size: 22px;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
 }
 
 .contact .col-md-4 .fas
