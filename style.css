@@ -622,8 +622,8 @@ body
 	background-position: center;
 	background-size: cover;   
 	color: #fff;   
-	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    
+	/*font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;*/
+    font-family: "Gilroy",sans-serif;
 }
 
 .profile-img{
